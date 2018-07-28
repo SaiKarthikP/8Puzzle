@@ -1,0 +1,157 @@
+::::::::::::::::::::::Sample Solution 1::::::::::::::::::::::::::
+Initial Configuration: 827130654
+Solution using Heuristic 1: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:19
+State:102345678 Parent State:120345678 H1:1 H2:1  Step Cost:18
+State:120345678 Parent State:125340678 H1:2 H2:2  Step Cost:17
+State:125340678 Parent State:125348670 H1:3 H2:3  Step Cost:16
+State:125348670 Parent State:125348607 H1:4 H2:4  Step Cost:15
+State:125348607 Parent State:125308647 H1:5 H2:5  Step Cost:14
+State:125308647 Parent State:125380647 H1:6 H2:6  Step Cost:13
+State:125380647 Parent State:120385647 H1:6 H2:7  Step Cost:12
+State:120385647 Parent State:102385647 H1:5 H2:6  Step Cost:11
+State:102385647 Parent State:182305647 H1:4 H2:5  Step Cost:10
+State:182305647 Parent State:182350647 H1:4 H2:6  Step Cost:9
+State:182350647 Parent State:182357640 H1:5 H2:7  Step Cost:8
+State:182357640 Parent State:182357604 H1:5 H2:8  Step Cost:7
+State:182357604 Parent State:182307654 H1:5 H2:9  Step Cost:6
+State:182307654 Parent State:182037654 H1:5 H2:10  Step Cost:5
+State:182037654 Parent State:082137654 H1:6 H2:11  Step Cost:4
+State:082137654 Parent State:802137654 H1:6 H2:12  Step Cost:3
+State:802137654 Parent State:820137654 H1:6 H2:13  Step Cost:2
+State:820137654 Parent State:827130654 H1:7 H2:14  Step Cost:1
+State:827130654 Parent State:Root H1:7 H2:15  Step Cost:0
+Time taken using Heuristic 1(Nanoseconds): 31437501 Search Cost: 4802
+
+
+Initial Configuration: 827130654
+Solution using Heuristic 2: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:19
+State:102345678 Parent State:120345678 H1:1 H2:1  Step Cost:18
+State:120345678 Parent State:125340678 H1:2 H2:2  Step Cost:17
+State:125340678 Parent State:125348670 H1:3 H2:3  Step Cost:16
+State:125348670 Parent State:125348607 H1:4 H2:4  Step Cost:15
+State:125348607 Parent State:125308647 H1:5 H2:5  Step Cost:14
+State:125308647 Parent State:125380647 H1:6 H2:6  Step Cost:13
+State:125380647 Parent State:120385647 H1:6 H2:7  Step Cost:12
+State:120385647 Parent State:102385647 H1:5 H2:6  Step Cost:11
+State:102385647 Parent State:182305647 H1:4 H2:5  Step Cost:10
+State:182305647 Parent State:182350647 H1:4 H2:6  Step Cost:9
+State:182350647 Parent State:182357640 H1:5 H2:7  Step Cost:8
+State:182357640 Parent State:182357604 H1:5 H2:8  Step Cost:7
+State:182357604 Parent State:182307654 H1:5 H2:9  Step Cost:6
+State:182307654 Parent State:182037654 H1:5 H2:10  Step Cost:5
+State:182037654 Parent State:082137654 H1:6 H2:11  Step Cost:4
+State:082137654 Parent State:802137654 H1:6 H2:12  Step Cost:3
+State:802137654 Parent State:820137654 H1:6 H2:13  Step Cost:2
+State:820137654 Parent State:827130654 H1:7 H2:14  Step Cost:1
+State:827130654 Parent State:Root H1:7 H2:15  Step Cost:0
+Time taken using Heuristic 2(Nanoseconds): 5301755 Search Cost: 652
+
+
+::::::::::::::::::::::Sample Solution 2::::::::::::::::::::::::::
+Initial Configuration: 472160538
+Solution using Heuristic 1: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:19
+State:102345678 Parent State:142305678 H1:1 H2:1  Step Cost:18
+State:142305678 Parent State:142350678 H1:2 H2:2  Step Cost:17
+State:142350678 Parent State:142358670 H1:3 H2:3  Step Cost:16
+State:142358670 Parent State:142358607 H1:4 H2:4  Step Cost:15
+State:142358607 Parent State:142358067 H1:5 H2:5  Step Cost:14
+State:142358067 Parent State:142058367 H1:6 H2:6  Step Cost:13
+State:142058367 Parent State:142508367 H1:7 H2:7  Step Cost:12
+State:142508367 Parent State:142568307 H1:7 H2:8  Step Cost:11
+State:142568307 Parent State:142568370 H1:7 H2:9  Step Cost:10
+State:142568370 Parent State:142560378 H1:6 H2:8  Step Cost:9
+State:142560378 Parent State:142506378 H1:5 H2:7  Step Cost:8
+State:142506378 Parent State:142576308 H1:5 H2:8  Step Cost:7
+State:142576308 Parent State:142576038 H1:6 H2:9  Step Cost:6
+State:142576038 Parent State:142076538 H1:6 H2:10  Step Cost:5
+State:142076538 Parent State:042176538 H1:6 H2:11  Step Cost:4
+State:042176538 Parent State:402176538 H1:6 H2:12  Step Cost:3
+State:402176538 Parent State:472106538 H1:6 H2:13  Step Cost:2
+State:472106538 Parent State:472160538 H1:6 H2:14  Step Cost:1
+State:472160538 Parent State:Root H1:6 H2:13  Step Cost:0
+Time taken using Heuristic 1(Nanoseconds): 35950172 Search Cost: 5880
+
+
+Initial Configuration: 472160538
+Solution using Heuristic 2: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:19
+State:102345678 Parent State:142305678 H1:1 H2:1  Step Cost:18
+State:142305678 Parent State:142350678 H1:2 H2:2  Step Cost:17
+State:142350678 Parent State:142358670 H1:3 H2:3  Step Cost:16
+State:142358670 Parent State:142358607 H1:4 H2:4  Step Cost:15
+State:142358607 Parent State:142358067 H1:5 H2:5  Step Cost:14
+State:142358067 Parent State:142058367 H1:6 H2:6  Step Cost:13
+State:142058367 Parent State:142508367 H1:7 H2:7  Step Cost:12
+State:142508367 Parent State:142568307 H1:7 H2:8  Step Cost:11
+State:142568307 Parent State:142568370 H1:7 H2:9  Step Cost:10
+State:142568370 Parent State:142560378 H1:6 H2:8  Step Cost:9
+State:142560378 Parent State:142506378 H1:5 H2:7  Step Cost:8
+State:142506378 Parent State:142576308 H1:5 H2:8  Step Cost:7
+State:142576308 Parent State:142576038 H1:6 H2:9  Step Cost:6
+State:142576038 Parent State:142076538 H1:6 H2:10  Step Cost:5
+State:142076538 Parent State:042176538 H1:6 H2:11  Step Cost:4
+State:042176538 Parent State:402176538 H1:6 H2:12  Step Cost:3
+State:402176538 Parent State:472106538 H1:6 H2:13  Step Cost:2
+State:472106538 Parent State:472160538 H1:6 H2:14  Step Cost:1
+State:472160538 Parent State:Root H1:6 H2:13  Step Cost:0
+Time taken using Heuristic 2(Nanoseconds): 4263983 Search Cost: 670
+
+
+::::::::::::::::::::::Sample Solution 3::::::::::::::::::::::::::
+Initial Configuration: 042351786
+Solution using Heuristic 1: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:22
+State:102345678 Parent State:142305678 H1:1 H2:1  Step Cost:21
+State:142305678 Parent State:142350678 H1:2 H2:2  Step Cost:20
+State:142350678 Parent State:142358670 H1:3 H2:3  Step Cost:19
+State:142358670 Parent State:142358607 H1:4 H2:4  Step Cost:18
+State:142358607 Parent State:142358067 H1:5 H2:5  Step Cost:17
+State:142358067 Parent State:142058367 H1:6 H2:6  Step Cost:16
+State:142058367 Parent State:042158367 H1:7 H2:7  Step Cost:15
+State:042158367 Parent State:402158367 H1:7 H2:8  Step Cost:14
+State:402158367 Parent State:452108367 H1:7 H2:9  Step Cost:13
+State:452108367 Parent State:452168307 H1:7 H2:10  Step Cost:12
+State:452168307 Parent State:452168370 H1:7 H2:11  Step Cost:11
+State:452168370 Parent State:452160378 H1:6 H2:10  Step Cost:10
+State:452160378 Parent State:452106378 H1:5 H2:9  Step Cost:9
+State:452106378 Parent State:452016378 H1:5 H2:10  Step Cost:8
+State:452016378 Parent State:452316078 H1:5 H2:9  Step Cost:7
+State:452316078 Parent State:452316708 H1:4 H2:8  Step Cost:6
+State:452316708 Parent State:452316780 H1:5 H2:9  Step Cost:5
+State:452316780 Parent State:452310786 H1:6 H2:10  Step Cost:4
+State:452310786 Parent State:452301786 H1:6 H2:9  Step Cost:3
+State:452301786 Parent State:402351786 H1:6 H2:10  Step Cost:2
+State:402351786 Parent State:042351786 H1:6 H2:9  Step Cost:1
+State:042351786 Parent State:Root H1:6 H2:8  Step Cost:0
+Time taken using Heuristic 1(Nanoseconds): 125336713 Search Cost: 26317
+
+
+Initial Configuration: 042351786
+Solution using Heuristic 2: 
+State:012345678 Parent State:102345678 H1:0 H2:0  Step Cost:22
+State:102345678 Parent State:142305678 H1:1 H2:1  Step Cost:21
+State:142305678 Parent State:142350678 H1:2 H2:2  Step Cost:20
+State:142350678 Parent State:142358670 H1:3 H2:3  Step Cost:19
+State:142358670 Parent State:142358607 H1:4 H2:4  Step Cost:18
+State:142358607 Parent State:142358067 H1:5 H2:5  Step Cost:17
+State:142358067 Parent State:142058367 H1:6 H2:6  Step Cost:16
+State:142058367 Parent State:042158367 H1:7 H2:7  Step Cost:15
+State:042158367 Parent State:402158367 H1:7 H2:8  Step Cost:14
+State:402158367 Parent State:452108367 H1:7 H2:9  Step Cost:13
+State:452108367 Parent State:452168307 H1:7 H2:10  Step Cost:12
+State:452168307 Parent State:452168370 H1:7 H2:11  Step Cost:11
+State:452168370 Parent State:452160378 H1:6 H2:10  Step Cost:10
+State:452160378 Parent State:452106378 H1:5 H2:9  Step Cost:9
+State:452106378 Parent State:452016378 H1:5 H2:10  Step Cost:8
+State:452016378 Parent State:452316078 H1:5 H2:9  Step Cost:7
+State:452316078 Parent State:452316708 H1:4 H2:8  Step Cost:6
+State:452316708 Parent State:452316780 H1:5 H2:9  Step Cost:5
+State:452316780 Parent State:452310786 H1:6 H2:10  Step Cost:4
+State:452310786 Parent State:452301786 H1:6 H2:9  Step Cost:3
+State:452301786 Parent State:402351786 H1:6 H2:10  Step Cost:2
+State:402351786 Parent State:042351786 H1:6 H2:9  Step Cost:1
+State:042351786 Parent State:Root H1:6 H2:8  Step Cost:0
+Time taken using Heuristic 2(Nanoseconds): 15022232 Search Cost: 2367

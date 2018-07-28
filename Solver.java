@@ -12,7 +12,8 @@ public class Solver {
 	public static void main(String[] args) {
 		
 		String state = null;
-		System.out.println("Initial state configuration\n 1.Random configuration\n 2.Enter the configuration\n 3.Read from file test.txt");
+		System.out.println("Comparison of 2 different heuristics for the 8-Puzzle Game");
+		System.out.println("Choose method of initial state configuration:\n 1.Random configuration\n 2.Enter the configuration\n 3.Read from file test.txt");
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		if (input==1){
@@ -116,7 +117,7 @@ public class Solver {
 		PriorityQueue<Node> frontier = new PriorityQueue<Node>(1,new h1Comparator());
 		HashSet<String> explored = new HashSet<String>();
 		Node initial = new Node(state, null, heuristic1(state), heuristic2(state),0);
-		nodeCounterH1++;
+		nodeCounterH1=1;
 		frontier.add(initial);
 		Node stateNode;
 		while (!frontier.isEmpty()){
@@ -153,7 +154,7 @@ public class Solver {
 		PriorityQueue<Node> frontier = new PriorityQueue<Node>(1,new h2Comparator());
 		HashSet<String> explored = new HashSet<String>();
 		Node initial = new Node(state, null, heuristic1(state), heuristic2(state),0);
-		nodeCounterH2++;
+		nodeCounterH2=1;
 		frontier.add(initial);
 		Node stateNode;
 		while (!frontier.isEmpty()){
@@ -366,32 +367,4 @@ class h2Comparator implements Comparator<Node>{
         return 0;
         }
 }
-class Node{
-	String state;
-	Node parent;
-	int h1, h2;
-	int g;
-
-	Node(String state, Node parent, int h1, int h2, int g){
-		this.state = state;
-		this.parent = parent;
-		this.h1 = h1;
-		this.h2 = h2;
-		this.g = g;
-
-	}
-
-//print the node data
-	public String toString(){
-		String parent;
-		if (this.parent==null)
-			parent = "Root";
-		else
-			parent = this.parent.state;
-		return ("State:" + this.state + " Parent State:" + parent + " H1:" + this.h1 + " H2:" + this.h2 + "  Step Cost:" + this.g); 
-		
-	}
-	
-}
-
 
